@@ -1,0 +1,118 @@
+title: 'Team Member'
+tabs:
+  main:
+    display: Main
+    sections:
+      -
+        display: 'Team Member Details'
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              instructions_position: above
+              listable: visible
+              visibility: visible
+              replicator_preview: true
+              input_type: text
+              antlers: true
+              hide_display: false
+              always_save: true
+              validate:
+                - required
+              width: 50
+              display: 'Full Name'
+          -
+            handle: team_member_picture
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Team Member Picture'
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: biographhy
+            field:
+              antlers: true
+              type: textarea
+              display: Biographhy
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+      -
+        display: 'Team Member Services'
+        fields:
+          -
+            handle: services_bard_field
+            field:
+              buttons:
+                - h2
+                - h3
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - quote
+                - anchor
+                - image
+                - table
+              smart_typography: false
+              save_html: false
+              inline: false
+              toolbar_mode: fixed
+              reading_time: false
+              word_count: false
+              fullscreen: true
+              allow_source: true
+              enable_input_rules: true
+              enable_paste_rules: true
+              remove_empty_nodes: false
+              antlers: false
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              always_show_set_button: false
+              collapse: false
+              previews: true
+              type: bard
+              display: Services
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+  sidebar:
+    display: Sidebar
+    sections:
+      -
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+              validate: 'max:200'
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              replicator_preview: true
+              from: title
+              generate: true
+              show_regenerate: false
+              hide_display: false
