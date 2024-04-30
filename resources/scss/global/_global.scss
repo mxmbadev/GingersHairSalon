@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Global Color Variables and Mixins */
+$teal: #2BCDC1;
+
+@mixin transition($transition...) {
+    -moz-transition: $transition !important;
+    -o-transition: $transition !important;
+    -webkit-transition: $transition !important;
+    transition: $transition !important;
+}
+
+/* Global Elements */
+body {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* Nav */
+.navbar.bg-body-tertiary {
+    background-color: transparent !important;
+
+    .navbar-nav li a.active {
+        color: $teal !important;
+    }
+}
+
+/* CTAs */
+.btn {
+    border-radius: 0px;
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+    @include transition(all, .3s);
+    &:hover {
+        background-color: transparent;
+        color: #fff;
+        border: 2px solid #fff;
+        @include transition(all, .3s);
+    }
+}
+
+.btn-black {
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+    @include transition(all, .3s);
+    &:hover {
+        background-color: transparent;
+        color: #000;
+        border: 2px solid #000;
+        @include transition(all, .3s);
+    }
+}
+
+/* Media Queries */
+@media (min-width: 992px) {
+    .desktop-only {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: block;
+
+        .offcanvas {
+            background-color: #000;
+        }
+    }
+}

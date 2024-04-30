@@ -1,5 +1,14 @@
 title: 'Team Members'
+template: team_members/show
+layout: layout
 revisions: false
+route: '/team/{slug}'
+sort_dir: asc
 date_behavior:
   past: public
   future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

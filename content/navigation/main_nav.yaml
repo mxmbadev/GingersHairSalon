@@ -1,0 +1,5 @@
+title: 'Main Nav'
+collections:
+  - team_members
+  - pages
+root: true

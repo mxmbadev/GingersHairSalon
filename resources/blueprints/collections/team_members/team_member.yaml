@@ -11,25 +11,24 @@ tabs:
             field:
               type: text
               required: true
+              validate:
+                - required
+              width: 50
+              display: title
               instructions_position: above
-              listable: visible
+              listable: true
               visibility: visible
               replicator_preview: true
               input_type: text
               antlers: true
               hide_display: false
-              always_save: true
-              validate:
-                - required
-              width: 50
-              display: 'Full Name'
+              default: '{{ first_name }}  {{ last_name }}'
           -
             handle: team_member_picture
             field:
-              max_files: 1
               mode: list
               container: assets
-              restrict: false
+              restrict: true
               allow_uploads: true
               show_filename: true
               show_set_alt: true
@@ -41,6 +40,8 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+              folder: team_members
+              max_files: 1
           -
             handle: biographhy
             field:
@@ -52,13 +53,64 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-              validate:
-                - required
+          -
+            handle: online_bookiun
+            field:
+              default: true
+              type: toggle
+              display: 'Online Booking?'
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: online_booking_url
+            field:
+              input_type: text
+              antlers: true
+              type: text
+              display: 'Online Booking URL'
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              if:
+                online_bookiun: 'equals true'
+          -
+            handle: first_name
+            field:
+              input_type: text
+              antlers: true
+              type: text
+              display: 'First Name'
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: last_name
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Last Name'
+              width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
       -
         display: 'Team Member Services'
         fields:
           -
-            handle: services_bard_field
+            handle: bard_field
             field:
               buttons:
                 - h2
@@ -91,7 +143,7 @@ tabs:
               collapse: false
               previews: true
               type: bard
-              display: Services
+              display: 'Bard Field'
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -108,11 +160,3 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
-              instructions_position: above
-              listable: hidden
-              visibility: visible
-              replicator_preview: true
-              from: title
-              generate: true
-              show_regenerate: false
-              hide_display: false

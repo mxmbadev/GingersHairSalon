@@ -10,8 +10,12 @@
         {{ vite src="resources/scss/main.scss" }}
     </head>
     <body class="bg-gray-100 font-sans leading-normal text-gray-800">
-        <div class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center">
+        <div class="mx-auto lg:min-h-screen flex flex-col items-center justify-center">
+            {{ partial:nav }}
             {{ template_content }}
         </div>
+
+        <!-- scripts -->
+        {{ vite src="resources/js/site.js" }}
     </body>
 </html>
