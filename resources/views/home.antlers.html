@@ -1,19 +1,70 @@
 <section id="hero-bg">
     <div class="container">
-        {{# <h1 class="text-uppercase text-white mb-4"><span>Welcome To</span>
-            <br>
-            Ginger's Hair Salon
-        </h1> #}}
         <h1 class="text-white mb-4">
-            Elevating Hair Mastery, <br> Redefining Beauty
+            {{ hero_text }}
         </h1>
-        <div>
-            <a href="" class="btn btn-white text-uppercase">Book Now</a>
-            <a href="" class="btn btn-white text-uppercase">Leave a Review</a>
-        </div>
-
-        {{# <div class="slogan-text text-center text-white align-self-end">
-            <h3>Elevating Hair Mastery, Redefining Beauty</h3>
-        </div> #}}
+        {{ hero_ctas }}
+            <a href="{{ url }}" class="btn btn-white text-uppercase">{{ text }}</a>
+        {{ /hero_ctas }}
     </div>
 </section>
+<section id="our-team" class="section">
+    <div class="container">
+        <h2 class="text-center">Our Team</h2>
+        <p class="text-center fs-5">Click on a team member to learn more about their services and prices</p>
+        <div class="row mt-5">
+            {{ collection:team_members | sort('title') }}
+                <div class="col-sm-3">
+                    <a href="{{ url }}">
+                        <img src="{{ team_member_picture }}" alt="{{ team_member_picture:alt }}" class="img-fluid rounded">
+                        <h3 class="h4 text-center mt-3">{{ title }}</h3>
+                    </a>
+                </div>
+            {{ /collection:team_members }}
+        </div>    
+    </div>
+</section>
+<section id="about-us" class="section">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-sm-5">
+                <h2 class="mb-3">{{ about_title }}</h2>
+                {{ about_text }}</p>
+                <a href="{{ about_cta_link }}" class="btn btn-black text-uppercase">{{ about_cta_text }}</a>
+            </div>
+            <div class="col-sm-6 offset-sm-1">
+                <img src="{{ about_image }}" alt="{{ about_image:alt }}" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="leave-review" class="section">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-sm-6">
+                <img src="{{ reviews_image }}" alt="{{ reviews_image:alt }}" class="img-fluid rounded">
+            </div>
+            <div class="col-sm-5 offset-sm-1">
+                <h2 class="mb-3">{{ reviews_title }}</h2>
+                {{ reviews_text }}</p>
+                <a href="{{ reviews_cta_url }}" class="btn btn-black text-uppercase">{{ reviews_cta_text }}</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="social-media-banner" class="section" style="background-image: url('{{ social_background_image }}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2 class="text-uppercase text-white">{{ social_banner_text }}</h2>
+                {{ salon:social_media }}
+                    <a href="{{ social_media_url }}" target="_blank">
+                        <img src="{{ social_media_logo }}" alt="{{ social_media_logo:alt }}" class="img-fluid">
+                    </a>
+                {{ /salon:social_media }}
+            </div>
+        </div>
+    </div>
+</section>
+

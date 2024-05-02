@@ -17,10 +17,17 @@ body {
     font-style: normal;
 }
 
+h1 { font-size: 3em; }
+h2 { font-size: 2.7em; }
+
+.section { padding: 5em 0; }
+
 /* Nav */
 .navbar.bg-body-tertiary {
     background-color: transparent !important;
-
+    &.scrolled {
+        background-color: #000 !important;
+    }
     .navbar-nav li a.active {
         color: $teal !important;
     }
@@ -54,6 +61,24 @@ body {
         color: #000;
         border: 2px solid #000;
         @include transition(all, .3s);
+    }
+}
+
+/* Footer */
+.footer {
+    background-color: #040404;
+    padding: 2em;
+    p a { color: #fff; }
+    .footer-links{
+        text-align: right;
+        a {
+            display: inline-block;
+            padding: 0 5px;
+            text-decoration: none;
+            &.active {
+                color: $teal !important;
+            }
+        }
     }
 }
 

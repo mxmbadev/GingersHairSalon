@@ -1,17 +1,2 @@
 @import "pages/home";
 @import "global/global";
-
-section#hero-bg {
-    background-image: url('../../public/assets/home/hero-bg.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    padding: 300px 0px;
-    h1 span { font-size: 22px; }
-    .btn:last-child { margin-left: 10px; }
- }
-
- @media ( max-width: 1799px ) and (min-width: 1200px ) {
-    section#hero-bg { padding: 200px 0px; }
- }

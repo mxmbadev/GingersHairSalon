@@ -14,7 +14,7 @@ tabs:
               validate:
                 - required
               width: 50
-              display: title
+              display: 'Full Name'
               instructions_position: above
               listable: true
               visibility: visible
@@ -22,7 +22,9 @@ tabs:
               input_type: text
               antlers: true
               hide_display: false
-              default: '{{ first_name }}  {{ last_name }}'
+              from: 'first_name last_name'
+              generate: true
+              show_regenerate: false
           -
             handle: team_member_picture
             field:
@@ -43,20 +45,20 @@ tabs:
               folder: team_members
               max_files: 1
           -
-            handle: biographhy
+            handle: biography
             field:
               antlers: true
               type: textarea
-              display: Biographhy
+              display: Biography
               listable: hidden
               instructions_position: above
               visibility: visible
               replicator_preview: true
               hide_display: false
           -
-            handle: online_bookiun
+            handle: online_booking
             field:
-              default: true
+              default: false
               type: toggle
               display: 'Online Booking?'
               width: 50
@@ -79,33 +81,7 @@ tabs:
               replicator_preview: true
               hide_display: false
               if:
-                online_bookiun: 'equals true'
-          -
-            handle: first_name
-            field:
-              input_type: text
-              antlers: true
-              type: text
-              display: 'First Name'
-              width: 50
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-          -
-            handle: last_name
-            field:
-              input_type: text
-              antlers: false
-              type: text
-              display: 'Last Name'
-              width: 50
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
+                online_booking: 'equals true'
       -
         display: 'Team Member Services'
         fields:
@@ -160,3 +136,11 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+              instructions_position: above
+              listable: hidden
+              visibility: visible
+              replicator_preview: true
+              from: title
+              generate: true
+              show_regenerate: false
+              hide_display: false

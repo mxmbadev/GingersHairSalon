@@ -3,6 +3,7 @@ tabs:
     display: Main
     sections:
       -
+        display: 'Salon Details'
         fields:
           -
             handle: logo
@@ -56,6 +57,64 @@ tabs:
               type: text
               display: 'Get Directions URL'
               width: 50
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+      -
+        display: 'Social Media'
+        fields:
+          -
+            handle: social_media
+            field:
+              collapse: false
+              previews: true
+              fullscreen: true
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  instructions: null
+                  icon: null
+                  sets:
+                    new_social:
+                      display: 'New Social'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: social_media_logo
+                          field:
+                            max_files: 1
+                            mode: list
+                            container: assets
+                            restrict: false
+                            allow_uploads: true
+                            show_filename: true
+                            show_set_alt: true
+                            type: assets
+                            display: 'Social Media Logo'
+                            width: 50
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                        -
+                          handle: social_media_url
+                          field:
+                            input_type: text
+                            antlers: true
+                            type: text
+                            display: 'Social Media URL'
+                            width: 50
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+              type: replicator
+              display: 'Social Media'
               listable: hidden
               instructions_position: above
               visibility: visible

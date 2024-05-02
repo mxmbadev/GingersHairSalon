@@ -1,0 +1,14 @@
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <p class="mb-0 text-white">Website Designed and Developed by <a href="https://www.mxmbadev.com">Mxmba.dev</a></p>
+            </div>
+            <div class="col-sm-6 footer-links">
+                {{ nav:collection:pages include_home="true" }}
+                    <a class="text-white {{ is_current ?= 'active' }}" aria-current="page" href="{{ url }}">{{title}}</a>
+                {{ /nav:collection:pages }}
+            </div>
+        </div>
+    </div>
+</section>

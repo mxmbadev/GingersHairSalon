@@ -3,6 +3,10 @@
         <div class="row">
             <div class="col-sm-6 mx-auto">
                 <h1 class="text-uppercase">{{ title }}</h1>
+                {{ if online_booking }}
+                    <a href="{{ online_booking_url }}" class="btn btn-cta">Book Now</a>
+                {{ else }}
+                    <a href="tel:{{ salon:phone_number }}" class="btn btn-cta">Book Now</a>
             </div>
         </div>
     </div>
