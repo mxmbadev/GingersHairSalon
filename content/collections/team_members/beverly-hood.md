@@ -63,11 +63,12 @@ bard_field:
         type: text
         text: '10 massages - $600'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1714629161
+updated_at: 1714696135
 biography: |-
   Beverly is a graduate from the Institute of Therapeutic Massage and Movement with over 500 hours of training. She has been practicing massage for over 20 years. 
 
   Beverly is certified in Deep Tissue and Trigger Point work, Lymphatic Drainage, pre and post-natal work, Sports Massage, Neuromuscular Therapy, and Swedish Massage. She offers Cupping for deep work and 'Hot Bamboo" to clients as needed and as a great relaxation tool. 
 
   She prefers to create a custom massage for each and every client. She invites clients to actively participate in their own healing. Her overall goal is to provide a relaxing and therapeutic massage to all she touches.
+team_member_picture: team_members/default.jpg
 ---

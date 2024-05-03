@@ -14,7 +14,7 @@
         <p class="text-center fs-5">Click on a team member to learn more about their services and prices</p>
         <div class="row mt-5">
             {{ collection:team_members | sort('title') }}
-                <div class="col-sm-3">
+                <div class="col-sm-3 pb-4 mb-5">
                     <a href="{{ url }}">
                         <img src="{{ team_member_picture }}" alt="{{ team_member_picture:alt }}" class="img-fluid rounded">
                         <h3 class="h4 text-center mt-3">{{ title }}</h3>
