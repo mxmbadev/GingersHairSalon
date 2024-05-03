@@ -17,7 +17,7 @@ hero_ctas:
     type: call_to_actions
     enabled: true
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1714525104
+updated_at: 1714701358
 hero_text:
   -
     type: paragraph
@@ -64,7 +64,6 @@ reviews_text:
         text: ' we’re dedicated to delivering top-notch service to our community. Join us and experience excellence firsthand!'
 reviews_cta_text: 'Leave us a review'
 reviews_cta_url: 'https://g.co/kgs/81ehbww'
-social_background_image:
-  - home/followus-bg.jpg
+social_background_image: home/followus-bg.jpg
 social_banner_text: 'Follow us on social media'
 ---
