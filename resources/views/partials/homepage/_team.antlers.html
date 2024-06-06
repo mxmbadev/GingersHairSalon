@@ -1,0 +1,30 @@
+{{ collection:team_members | sort('title') }}
+<div class="col-sm-3 text-center pb-4 mb-2">
+    <a href="{{ url }}">
+        <img src="{{ team_member_picture }}" alt="{{ team_member_picture:alt }}" class="img-fluid rounded">
+        <h3 class="h4 text-center mt-3">{{ title }}</h3>
+    </a>
+</div>
+{{ /collection:team_members }}
+{{# <div id="recipeCarousel" class="carousel carousel-dark slide">
+    <div class="carousel-inner">
+        {{ collection:team_members }}
+        <div class="carousel-item {{ if first }}active{{ /if }}">
+            <div class="col-sm-3 text-center">
+                <a href="{{ url }}">
+                    <img src="{{ team_member_picture }}" alt="{{ team_member_picture:alt }}" class="img-fluid rounded">
+                    <h3 class="h4 text-center mt-3">{{ title }}</h3>
+                </a>
+            </div>
+        </div>
+        {{ /collection:team_members }}
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#recipeCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#recipeCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div> #}}
