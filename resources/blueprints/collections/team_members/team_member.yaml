@@ -125,6 +125,88 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+          -
+            handle: services
+            field:
+              collapse: false
+              previews: true
+              fullscreen: true
+              sets:
+                new_set_group:
+                  display: 'New Set Group'
+                  instructions: null
+                  icon: null
+                  sets:
+                    service_category:
+                      display: 'Service Category'
+                      instructions: null
+                      icon: null
+                      fields:
+                        -
+                          handle: service_name
+                          field:
+                            input_type: text
+                            antlers: true
+                            type: text
+                            display: 'Service Name'
+                            width: 33
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                            validate:
+                              - required
+                        -
+                          handle: bard_field
+                          field:
+                            buttons:
+                              - h2
+                              - h3
+                              - bold
+                              - italic
+                              - unorderedlist
+                              - orderedlist
+                              - removeformat
+                              - quote
+                              - anchor
+                              - image
+                              - table
+                            smart_typography: false
+                            save_html: false
+                            inline: false
+                            toolbar_mode: fixed
+                            reading_time: false
+                            word_count: false
+                            fullscreen: true
+                            allow_source: true
+                            enable_input_rules: true
+                            enable_paste_rules: true
+                            remove_empty_nodes: false
+                            antlers: true
+                            link_noopener: false
+                            link_noreferrer: false
+                            target_blank: false
+                            always_show_set_button: false
+                            collapse: false
+                            previews: true
+                            type: bard
+                            display: 'Bard Field'
+                            width: 66
+                            listable: hidden
+                            instructions_position: above
+                            visibility: visible
+                            replicator_preview: true
+                            hide_display: false
+                            validate:
+                              - required
+              type: replicator
+              display: Services
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
   sidebar:
     display: Sidebar
     sections:

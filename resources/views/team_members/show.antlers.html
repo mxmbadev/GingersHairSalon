@@ -1,37 +1,51 @@
-<section id="hero">
+{{ get_content from="/team" }}
+<section id="team_member_hero" style="background-image: url('{{ team_hero_image }}');">
+{{ /get_content }}
     <div class="container">
         <div class="row">
-            <div class="col-sm-6 mx-auto">
-                <h1 class="text-uppercase">{{ title }}</h1>
+            <div class="col-sm-12 text-left">
+                <h1 class="text-uppercase heading-lg">{{ title }}</h1>
                 {{ if online_booking }}
-                    <a href="{{ online_booking_url }}" class="btn btn-cta">Book Now</a>
+                <a href="{{ online_booking_url }}" class="btn btn-white">Book Now</a>
                 {{ else }}
-                    <a href="tel:{{ salon:phone_number }}" class="btn btn-cta">Book Now</a>
+                <a href="tel:{{ salon:phone_number }}" class="btn btn-white">Book Now</a>
                 {{ /if }}
             </div>
         </div>
     </div>
 </section>
-<section id="bio">
+<section id="bio" class="py-4">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <p>
+            <div class="col-sm-6 col-lg-7 col-xl-8 pt-4">
+                <p class="lead">
                     {{ biography }}
                 </p>
             </div>
-            <div class="col-sm-6">
-                    <img src="{{ team_member_picture }}" alt="{{ team_member_picture:alt }}" class="img-fluid">
+            <div class="col-sm-6 col-lg-4 col-xl-3 offset-lg-1">
+                <img src="{{ team_member_picture }}" alt="{{ team_member_picture:alt }}" class="img-fluid">
             </div>
         </div>
     </div>
 </section>
-<section id="services">
+<section id="services" class="py-4">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
-                {{ services }}
+            <h2 class="pt-1">My Services</h2>
+            <div class="col-sm-4 col-md-2">
+                <hr>
             </div>
+        </div>
+        <div class="row">
+            {{ services }}
+                <div class="col-sm-4">
+                    <h3 class="pt-3 pb-3">{{ service_name }}</h3>
+                    {{ bard_field }}
+                </div>
+            {{ /services }}
+            {{# <div class="col-sm-12">
+                {{ bard_field }}
+            </div> #}}
         </div>
     </div>
 </section>

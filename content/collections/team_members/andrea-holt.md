@@ -18,6 +18,129 @@ bard_field:
         type: text
         text: Services
   -
+    type: table
+    content:
+      -
+        type: tableRow
+        content:
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: "Women's Haircut - $45"
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: "Men's Haircut - $30"
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: bulletList
+                content:
+                  -
+                    type: listItem
+                    content:
+                      -
+                        type: paragraph
+                        content:
+                          -
+                            type: text
+                            text: "Child's Haircut - $30"
+      -
+        type: tableRow
+        content:
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+      -
+        type: tableRow
+        content:
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+          -
+            type: tableCell
+            attrs:
+              colspan: 1
+              rowspan: 1
+              colwidth: null
+            content:
+              -
+                type: paragraph
+  -
     type: bulletList
     content:
       -
@@ -129,5 +252,132 @@ bard_field:
                 type: text
                 text: 'Two Color Process & Haircut - $160'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1714696850
+updated_at: 1717729150
+services:
+  -
+    id: lx41025j
+    service_name: 'Haircuts & Hair Treatments'
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Women's Haircut - $45"
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Men's Haircut - $30"
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Child's Haircut - $30"
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Blowout - $35'
+    type: service_category
+    enabled: true
+  -
+    id: lx42om0u
+    service_name: Color
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Single Process Color - $100'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Single Process Color & Haircut - $130'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Two Color Process - $130'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Two Color Process & Haircut - $160'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Partial Highlight - $120'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Partial Highlight & Haircut - $150'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Full Highlight - $150'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Full Highlight & Haircut - $180'
+    type: service_category
+    enabled: true
 ---
