@@ -2,6 +2,7 @@
 
 /* Global Color Variables and Mixins */
 $teal: #2BCDC1;
+$gold: #a19274;
 
 @mixin transition($transition...) {
     -moz-transition: $transition !important;
