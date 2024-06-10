@@ -28,7 +28,7 @@
         </div>
     </div>
 </section>
-<section id="services" class="py-4">
+<section id="services">
     <div class="container">
         <div class="row">
             <h2 class="pt-1">My Services</h2>
@@ -37,15 +37,33 @@
             </div>
         </div>
         <div class="row">
-            {{ services }}
-                <div class="col-sm-4">
-                    <h3 class="pt-3 pb-3">{{ service_name }}</h3>
-                    {{ bard_field }}
-                </div>
-            {{ /services }}
-            {{# <div class="col-sm-12">
-                {{ bard_field }}
-            </div> #}}
+            {{ if services }}
+                {{ services }}
+                    <div class="col-sm-4">
+                        <h3 class="pt-3 pb-3">{{ service_name }}</h3>
+                        {{ bard_field }}
+                    </div>
+                {{ /services }}
+            {{ else }}
+                <p class="lead">Coming Soon! Contact us to get more information.</p>
+            {{ /if }}
         </div>
     </div>
 </section>
+{{ get_content from="/team" }}
+<section class="footer-banner" style="background-image: url('{{ footer_banner_image }}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-left">
+                <h2 class="text-white">{{ footer_banner_title }}</h2>
+                {{ if online_booking }}
+                <a href="{{ online_booking_url }}" class="btn btn-white">Book Now</a>
+                {{ else }}
+                <a href="tel:{{ salon:phone_number }}" class="btn btn-white">Book Now</a>
+                {{ /if }}
+                <a href="{{ salon:get_directions_url }}" class="btn btn-white">Get Directions</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{ /get_content }}

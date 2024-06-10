@@ -252,11 +252,10 @@ bard_field:
                 type: text
                 text: 'Two Color Process & Haircut - $160'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1717729150
+updated_at: 1717993607
 services:
   -
     id: lx41025j
-    service_name: 'Haircuts & Hair Treatments'
     bard_field:
       -
         type: bulletList
@@ -269,7 +268,13 @@ services:
                 content:
                   -
                     type: text
-                    text: "Women's Haircut - $45"
+                    text: "Women's Haircut - "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $45
           -
             type: listItem
             content:
@@ -278,7 +283,13 @@ services:
                 content:
                   -
                     type: text
-                    text: "Men's Haircut - $30"
+                    text: "Men's Haircut - "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $30
           -
             type: listItem
             content:
@@ -287,7 +298,13 @@ services:
                 content:
                   -
                     type: text
-                    text: "Child's Haircut - $30"
+                    text: "Child's Haircut - "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $30
           -
             type: listItem
             content:
@@ -296,12 +313,17 @@ services:
                 content:
                   -
                     type: text
-                    text: 'Blowout - $35'
+                    text: 'Blowout - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $35
     type: service_category
     enabled: true
   -
     id: lx42om0u
-    service_name: Color
     bard_field:
       -
         type: bulletList
@@ -314,7 +336,13 @@ services:
                 content:
                   -
                     type: text
-                    text: 'Single Process Color - $100'
+                    text: 'Single Process Color - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $100
           -
             type: listItem
             content:
@@ -323,7 +351,13 @@ services:
                 content:
                   -
                     type: text
-                    text: 'Single Process Color & Haircut - $130'
+                    text: 'Single Process Color & Haircut - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $130
           -
             type: listItem
             content:
@@ -332,7 +366,13 @@ services:
                 content:
                   -
                     type: text
-                    text: 'Two Color Process - $130'
+                    text: 'Two Color Process - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $130
           -
             type: listItem
             content:
@@ -341,7 +381,21 @@ services:
                 content:
                   -
                     type: text
-                    text: 'Two Color Process & Haircut - $160'
+                    text: 'Two Color Process & Haircut - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $160
+    type: service_category
+    enabled: true
+  -
+    id: lx8h0082
+    bard_field:
+      -
+        type: bulletList
+        content:
           -
             type: listItem
             content:
@@ -350,7 +404,13 @@ services:
                 content:
                   -
                     type: text
-                    text: 'Partial Highlight - $120'
+                    text: 'Partial Highlight - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $120
           -
             type: listItem
             content:
@@ -359,7 +419,13 @@ services:
                 content:
                   -
                     type: text
-                    text: 'Partial Highlight & Haircut - $150'
+                    text: 'Partial Highlight & Haircut - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $150
           -
             type: listItem
             content:
@@ -368,7 +434,13 @@ services:
                 content:
                   -
                     type: text
-                    text: 'Full Highlight - $150'
+                    text: 'Full Highlight - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $150
           -
             type: listItem
             content:
@@ -377,7 +449,13 @@ services:
                 content:
                   -
                     type: text
-                    text: 'Full Highlight & Haircut - $180'
+                    text: 'Full Highlight & Haircut - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $180
     type: service_category
     enabled: true
 ---

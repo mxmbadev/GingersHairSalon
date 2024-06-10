@@ -164,5 +164,279 @@ bard_field:
                 type: text
                 text: "Women's Cut and Dry - $45"
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1714695779
+updated_at: 1717993482
+services:
+  -
+    id: lx8gu4e9
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Men's Cut - "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $30
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Beard Trim - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $15
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Child Cut - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $30
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Women's Cut and Dry - "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $45
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Bang Trim - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $15
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Blow Dry No Cut - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $30
+    type: service_category
+    enabled: true
+  -
+    id: lx8gvqik
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Perm - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $105
+                  -
+                    type: text
+                    text: ' '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: italic
+                    text: '(Extra for long hair)'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Single Process Color - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $100
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Partial Foils - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $120
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Full Foil - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $150
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Partial Foil Over Color - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $145
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Full Foil Over Color - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $175
+    type: service_category
+    enabled: true
+  -
+    id: lx8gwpjm
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Lip or Brow Wax - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: '$20 each'
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Add Cut to any Chemical Service - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $30
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Hot Tool Add On - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $10
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Add Toner - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $20
+    type: service_category
+    enabled: true
 ---

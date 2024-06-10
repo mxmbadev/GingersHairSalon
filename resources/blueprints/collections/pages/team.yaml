@@ -30,6 +30,43 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+      -
+        display: Footer
+        fields:
+          -
+            handle: footer_banner_title
+            field:
+              input_type: text
+              antlers: true
+              type: text
+              display: 'Footer Banner Title'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: footer_banner_image
+            field:
+              mode: list
+              container: assets
+              folder: team_members
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Footer Banner Image'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+              max_files: 1
   sidebar:
     display: Sidebar
     sections:

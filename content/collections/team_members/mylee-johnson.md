@@ -166,5 +166,228 @@ bard_field:
                 type: text
                 text: 'Scalp Treatment - $50+'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1714698259
+updated_at: 1717992525
+services:
+  -
+    id: lx8gc7w4
+    service_name: 'Haircuts & Hair Treatments'
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Blowout Style - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $40+
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: "Women's Haircut - "
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $45+
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Deep Conditioning - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $50+
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Scalp Treatment - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $50+
+    type: service_category
+    enabled: true
+  -
+    id: lx8gcwb2
+    service_name: Color
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'All Over Gloss - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $60+
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Color Retouch - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $75+
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'All Over Color - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $100+
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Partial Lowlight - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $110+
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Full Lowlight - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $120+
+    type: service_category
+    enabled: true
+  -
+    id: lx8gdgsh
+    service_name: Blonding
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Accent Foil - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $45+
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Mini Custom - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $90+
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Partial Custom - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $120+
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Full Custom - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $140+
+    type: service_category
+    enabled: true
 ---

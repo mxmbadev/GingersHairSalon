@@ -82,5 +82,195 @@ bard_field:
         type: text
         text: 'Regular Polish - $20'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1714629903
+updated_at: 1717991842
+services:
+  -
+    id: lx8fwsip
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Manicure - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $35
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Shellac Gel Manicure - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $45
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Soak off Shellac Gel Manicure - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $20
+    type: service_category
+    enabled: true
+  -
+    id: lx8fxrvh
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Acrylic - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $75
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Acrylic Fill - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $45
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Acrylic Nail Repair - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $8
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Soak off Acrylics - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $25
+    type: service_category
+    enabled: true
+  -
+    id: lx8fy8e9
+    bard_field:
+      -
+        type: bulletList
+        content:
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Gel X - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $70
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Pedicure - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $65
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: '    Add on Gel Polish - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $20
+          -
+            type: listItem
+            content:
+              -
+                type: paragraph
+                content:
+                  -
+                    type: text
+                    text: 'Regular Polish - '
+                  -
+                    type: text
+                    marks:
+                      -
+                        type: bold
+                    text: $20
+    type: service_category
+    enabled: true
 ---
