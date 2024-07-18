@@ -1,0 +1,30 @@
+<section id="contact_page" style="background-image: url('{{ contact_us_background_image }}');">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="text-white">{{ title }}</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact-details" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2 class="h3">Contact Information</h2>
+                <hr class="mb-5">
+                <p>Location: <a href="{{ salon:get_direction_url}}" target="_blank">{{ salon:address }}</a></p>
+                <p>Phone: <a href="tel:{{ salon:phone_number }}">{{ salon:phone_number }}</a></p>
+                <a href="{{ salon:get_direction_url}}" class="btn btn-black">Get Directions</a>
+            </div>
+            <div class="col-sm-6">
+                <div class="ratio ratio-16x9">
+                    <iframe class="embed-responsive-item"
+                        src="{{ salon:google_map_iframe_code }}"
+                        allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

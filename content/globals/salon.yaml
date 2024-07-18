@@ -4,6 +4,7 @@ data:
   address: '1412 Trotwood Ave #71, Columbia, TN 38401'
   phone_number: 931-388-0578
   get_directions_url: "https://www.google.com/maps/dir//Ginger's,+1412+Trotwood+Ave+%2371,+Columbia,+TN+38401/@35.599433,-87.076946,14z/data=!4m9!4m8!1m0!1m5!1m1!1s0x88636dec714f3c47:0x135ae746f0f59379!2m2!1d-87.0769464!2d35.5994325!3e0?hl=en-US&entry=ttu"
+  google_map_iframe_code: 'https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d51906.31199547613!2d-87.065445!3d35.599502!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88636dec714f3c47%3A0x135ae746f0f59379!2sGinger&#39;s!5e0!3m2!1sen!2sus!4v1721277300131!5m2!1sen!2sus'
   social_media:
     -
       id: lvn5iit2

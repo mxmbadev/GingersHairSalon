@@ -62,6 +62,18 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+          -
+            handle: google_map_iframe_code
+            field:
+              input_type: text
+              antlers: true
+              type: text
+              display: 'Google Map iFrame Code'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
       -
         display: 'Social Media'
         fields:
