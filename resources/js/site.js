@@ -1,7 +1,7 @@
 // This is all you.
 import '../../node_modules/bootstrap/dist/js/bootstrap'
-import '../scss/bootstrap.scss';
-import '../scss/main.scss';
+// import '../scss/bootstrap.scss';
+// import '../scss/main.scss';
 
 
 // Nav
