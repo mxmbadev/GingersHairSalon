@@ -8,8 +8,8 @@ export default defineConfig({
             input: [
                 'resources/css/site.css',
                 'resources/js/site.js',
-                'resouces/scss/bootstrap.scss',
-                'resouces/scss/main.scss'
+                'resources/scss/bootstrap.scss',
+                'resources/scss/main.scss'
                 // Control Panel assets.
                 // https://statamic.dev/extending/control-panel#adding-css-and-js-assets
                 // 'resources/css/cp.css',
