@@ -10,5 +10,6 @@ export default defineConfig({
             ],
             refresh: true,
         }),
-    ]
+    ],
+    base: process.env.NODE_ENV === 'production' ? 'https://salongingers.netlify.app/' : '/',
 });
