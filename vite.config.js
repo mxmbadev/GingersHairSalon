@@ -1,22 +1,14 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
-// import vue2 from '@vitejs/plugin-vue2';
 
 export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/css/site.css',
-                'resources/js/site.js',
-                'resources/scss/bootstrap.scss',
-                'resources/scss/main.scss'
-                // Control Panel assets.
-                // https://statamic.dev/extending/control-panel#adding-css-and-js-assets
-                // 'resources/css/cp.css',
-                // 'resources/js/cp.js',
+                'resources/scss/main.scss', // Entry point for your SCSS
+                'resources/js/site.js'
             ],
             refresh: true,
         }),
-        // vue2(),        
-    ],
+    ]
 });
