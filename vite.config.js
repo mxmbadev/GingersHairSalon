@@ -5,8 +5,8 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                'resources/scss/main.scss',
-                'resources/js/site.js'
+                'resources/scss/main.scss',  // Input SCSS file
+                'resources/js/site.js'       // Input JS file
             ],
             refresh: true,
         }),
@@ -18,7 +18,7 @@ export default defineConfig({
                 chunkFileNames: 'js/[name].js',
                 assetFileNames: ({ name }) => {
                     if (name.endsWith('.css')) {
-                        return 'css/site.css';
+                        return 'css/[name].[hash].css';  // Output to public/build/css with hash
                     }
                     return 'assets/[name].[ext]';
                 },
