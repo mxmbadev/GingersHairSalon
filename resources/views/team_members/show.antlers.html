@@ -1,6 +1,6 @@
-{{ get_content from="/team" }}
+{{ collection:pages team_hero_image:exists="true" limit="1" }}
 <section id="team_member_hero" style="background-image: url('{{ team_hero_image }}');">
-{{ /get_content }}
+{{ /collection:pages }}
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-left">
@@ -50,7 +50,8 @@
         </div>
     </div>
 </section>
-{{ get_content from="/team" }}
+
+{{ collection:pages footer_banner_image:exists="true" limit="1" }}
 <section class="footer-banner" style="background-image: url('{{ footer_banner_image }}');">
     <div class="container">
         <div class="row">
@@ -66,4 +67,4 @@
         </div>
     </div>
 </section>
-{{ /get_content }}
+{{ /collection:pages }}
