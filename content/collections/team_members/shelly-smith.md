@@ -6,7 +6,7 @@ team_member_picture: team_members/shelly-smith.jpg
 biography: |-
   Shelly has had a passion for the hair and beauty industry for most of her adult life. She has been licensed for more than 35 years in three different states and has been at Ginger's for over 10 years. Shelly believes in continual education and strives to stay at the forefront of her field. She enjoys several coloring techniques, foil highlights and low lights, color correction, gray reduction, Brazilian blowout, Perms, and fashion cuts for men, women, and children! Shelly places high value on listening to her clients, understanding their needs, and respecting their hair. She is happy to add a waxing service to help polish the client's final transformation.
   In her spare time, Shelly enjoys spending time with her family and crafting.
-online_booking: false
+online_booking: true
 bard_field:
   -
     type: heading
@@ -164,7 +164,7 @@ bard_field:
                 type: text
                 text: "Women's Cut and Dry - $45"
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1717993482
+updated_at: 1730872624
 services:
   -
     id: lx8gu4e9
@@ -439,4 +439,5 @@ services:
                     text: $20
     type: service_category
     enabled: true
+online_booking_url: 'tel:9313881114'
 ---

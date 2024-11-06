@@ -166,7 +166,7 @@ bard_field:
                 type: text
                 text: 'Scalp Treatment - $50+'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1717992525
+updated_at: 1730872662
 services:
   -
     id: lx8gc7w4

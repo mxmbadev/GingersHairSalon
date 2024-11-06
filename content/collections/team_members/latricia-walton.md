@@ -82,8 +82,19 @@ bard_field:
         type: text
         text: 'Regular Polish - $20'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1717991842
+updated_at: 1730873013
 services:
+  -
+    id: m35h0ugt
+    bard_field:
+      -
+        type: paragraph
+        content:
+          -
+            type: text
+            text: 'Prices are based on consultation. '
+    type: service_category
+    enabled: true
   -
     id: lx8fwsip
     bard_field:
@@ -136,7 +147,7 @@ services:
                         type: bold
                     text: $20
     type: service_category
-    enabled: true
+    enabled: false
   -
     id: lx8fxrvh
     bard_field:
@@ -204,7 +215,7 @@ services:
                         type: bold
                     text: $25
     type: service_category
-    enabled: true
+    enabled: false
   -
     id: lx8fy8e9
     bard_field:
@@ -249,7 +260,7 @@ services:
                 content:
                   -
                     type: text
-                    text: '    Add on Gel Polish - '
+                    text: 'Add on Gel Polish - '
                   -
                     type: text
                     marks:
@@ -272,5 +283,5 @@ services:
                         type: bold
                     text: $20
     type: service_category
-    enabled: true
+    enabled: false
 ---

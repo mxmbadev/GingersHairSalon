@@ -17,12 +17,30 @@
         </div>    
     </div>
 </section>
+
+<section id="pricing" class="section bg-color1">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-sm-12">
+                <h2>{{ pricing_title }}</h2>
+                <div class="row mt-4 pt-2">
+                    {{ pricing_elements }}
+                    <div class="col-sm-4">
+                        {{ pricing_information }}
+                    </div>
+                {{ /pricing_elements }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="about-us" class="section">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-sm-5">
                 <h2 class="mb-3">{{ about_title }}</h2>
-                {{ about_text }}</p>
+                <p>{{ about_text }}</p>
                 <a href="{{ about_cta_link }}" class="btn btn-black text-uppercase">{{ about_cta_text }}</a>
             </div>
             <div class="col-sm-6 offset-sm-1">
@@ -32,7 +50,7 @@
     </div>
 </section>
 
-<section id="leave-review" class="section">
+<section id="leave-review" class="section bg-color1">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-sm-6">

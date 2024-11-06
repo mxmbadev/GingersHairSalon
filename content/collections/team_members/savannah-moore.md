@@ -9,7 +9,7 @@ biography: |-
   Savannah is dedicated to continued education. She's always eager to learn new techniques, attend classes, and stay updated with the latest trends. This commitment to growth ensures that she can offer her clients the most up-to-date styles.
 
   Whether you're looking for a glamorous makeover or simply want to enhance your natural beauty, you can trust Savannah’s expertise and artistic vision to create a look that's uniquely you. Get ready to turn heads and feel fabulous with her magical touch!
-online_booking: false
+online_booking: true
 bard_field:
   -
     type: heading
@@ -212,7 +212,7 @@ bard_field:
                 type: text
                 text: 'Extensions by consultation'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1717993221
+updated_at: 1730872647
 services:
   -
     id: lx8gm4eb
@@ -550,4 +550,5 @@ services:
                     text: 'Extensions by consultation'
     type: service_category
     enabled: true
+online_booking_url: 'tel:6157961613'
 ---
