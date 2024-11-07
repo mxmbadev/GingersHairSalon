@@ -1,6 +1,8 @@
 title: 'Team Members'
 template: team_members/show
 layout: layout
+taxonomies:
+  - tags
 revisions: false
 route: '/team/{slug}'
 sort_dir: asc

@@ -82,7 +82,7 @@ bard_field:
         type: text
         text: 'Regular Polish - $20'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730873013
+updated_at: 1730951093
 services:
   -
     id: m35h0ugt
@@ -284,4 +284,6 @@ services:
                     text: $20
     type: service_category
     enabled: false
+tags:
+  - nail-technician
 ---

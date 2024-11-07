@@ -63,7 +63,7 @@ bard_field:
         type: text
         text: '10 massages - $600'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730872996
+updated_at: 1730951023
 biography: |-
   Beverly is a graduate from the Institute of Therapeutic Massage and Movement with over 500 hours of training. She has been practicing massage for over 20 years. 
 
@@ -156,4 +156,6 @@ services:
     type: service_category
     enabled: true
 online_booking_url: 'tel:9316981447'
+tags:
+  - massage-therapist
 ---

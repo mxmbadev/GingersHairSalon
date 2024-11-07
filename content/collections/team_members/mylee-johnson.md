@@ -166,7 +166,7 @@ bard_field:
                 type: text
                 text: 'Scalp Treatment - $50+'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730872662
+updated_at: 1730953310
 services:
   -
     id: lx8gc7w4
@@ -390,4 +390,6 @@ services:
                     text: $140+
     type: service_category
     enabled: true
+tags:
+  - hair-stylist
 ---

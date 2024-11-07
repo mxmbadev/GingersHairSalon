@@ -9,7 +9,7 @@ biography: |-
   For Andrea, doing hair is not just a job, but a profound calling. She believes in creating a memorable experience for every client who sits in her chair. Andrea describes herself as a hardworking individual, dedicated to making her clients not only look amazing but also feel confident and beautiful.
 online_booking: true
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730872595
+updated_at: 1730950966
 services:
   -
     id: lx41025j
@@ -216,4 +216,6 @@ services:
     type: service_category
     enabled: true
 online_booking_url: 'tel:9313344278'
+tags:
+  - hair-stylist
 ---

@@ -164,7 +164,7 @@ bard_field:
                 type: text
                 text: "Women's Cut and Dry - $45"
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730872624
+updated_at: 1730953495
 services:
   -
     id: lx8gu4e9
@@ -440,4 +440,6 @@ services:
     type: service_category
     enabled: true
 online_booking_url: 'tel:9313881114'
+tags:
+  - hair-stylist
 ---

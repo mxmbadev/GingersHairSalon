@@ -79,6 +79,14 @@ h2 { font-size: 2.7em; }
     }
 }
 
+.tags { 
+    background-color: $teal;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 4px;
+    width: fit-content;
+ }
+
 /* Footer */
 .footer {
     background-color: #040404;

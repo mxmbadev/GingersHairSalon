@@ -212,7 +212,7 @@ bard_field:
                 type: text
                 text: 'Extensions by consultation'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730872647
+updated_at: 1730953429
 services:
   -
     id: lx8gm4eb
@@ -551,4 +551,6 @@ services:
     type: service_category
     enabled: true
 online_booking_url: 'tel:6157961613'
+tags:
+  - hair-stylist
 ---
