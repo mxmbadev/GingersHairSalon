@@ -1,22 +1,24 @@
 {{ collection:team_members | sort('title') }}
-{{ if title == "Ginger Moon" }}
-<div class="col-sm-3 text-center pb-4 mb-2 member">
-    <a href="{{ url }}">
-        <img src="{{ team_member_picture }}" alt="{{ team_member_picture:alt }}" class="img-fluid rounded">
-        <h3 class="h4 text-center mt-3">{{ title }}</h3>
-        {{ tags }} <div class="tags mx-auto">{{ title }}</div> {{/tags}}
-    </a>
-</div>
-{{ /if }}
+    {{ if title == "Ginger Moon" }}
+    <div class="col-sm-3 text-center pb-4 mb-2 member">
+        <a href="{{ url }}">
+            <img src="{{ team_member_picture }}" alt="{{ team_member_picture:alt }}" class="img-fluid rounded">
+            <h3 class="h4 text-center mt-3">{{ title }}</h3>
+            {{ tags }} <div class="tags mx-auto">{{ title }}</div> {{/tags}}
+        </a>
+    </div>
+    {{ /if }}
 {{ /collection:team_members }}
 {{ collection:team_members }}
-<div class="col-sm-3 text-center pb-4 mb-2 member">
-    <a href="{{ url }}">
-        <img src="{{ team_member_picture }}" alt="{{ team_member_picture:alt }}" class="img-fluid rounded">
-        <h3 class="h4 text-center mt-3">{{ title }}</h3>
-        {{ tags }} <div class="tags mx-auto">{{ title }}</div> {{/tags}}
-    </a>
-</div>
+    {{ if title != "Ginger Moon" }}
+    <div class="col-sm-3 text-center pb-4 mb-2 member">
+        <a href="{{ url }}">
+            <img src="{{ team_member_picture }}" alt="{{ team_member_picture:alt }}" class="img-fluid rounded">
+            <h3 class="h4 text-center mt-3">{{ title }}</h3>
+            {{ tags }} <div class="tags mx-auto">{{ title }}</div> {{/tags}}
+        </a>
+    </div>
+    {{ /if }}
 {{ /collection:team_members }}
 
 

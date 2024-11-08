@@ -8,7 +8,7 @@ hero_ctas:
     id: lvluf9qg
     text: 'Book Now'
     type: call_to_actions
-    enabled: true
+    enabled: false
     url: 'tel:9313880578'
   -
     id: lvlup7k3
@@ -17,7 +17,7 @@ hero_ctas:
     type: call_to_actions
     enabled: true
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730872199
+updated_at: 1731030368
 hero_text:
   -
     type: paragraph
@@ -419,4 +419,7 @@ pricing_elements:
                     text: 'Other needs are not listed.'
     type: new_set
     enabled: true
+gallery_image_1: home/gallery/pedicure02.jpg
+gallery_image_2: home/gallery/pedicure0.jpg
+gallery_image_3: home/gallery/pedicure01.jpg
 ---

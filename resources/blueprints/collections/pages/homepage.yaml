@@ -68,6 +68,39 @@ tabs:
             field:
               type: entries
               display: 'Team Members'
+  gallery_divider:
+    display: 'Gallery Divider'
+    sections:
+      -
+        display: 'New Section'
+        fields:
+          -
+            handle: gallery_image_1
+            field:
+              container: assets
+              type: assets
+              display: 'Gallery image 1'
+              width: 33
+              max_files: 1
+              folder: home/gallery
+          -
+            handle: gallery_image_2
+            field:
+              container: assets
+              type: assets
+              display: 'Gallery Image 2'
+              width: 33
+              max_files: 1
+              folder: home/gallery
+          -
+            handle: gallery_image_3
+            field:
+              container: assets
+              type: assets
+              display: 'Gallery Image 3'
+              width: 33
+              max_files: 1
+              folder: home/gallery
   pricing:
     display: Pricing
     sections:

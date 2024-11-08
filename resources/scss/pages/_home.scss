@@ -1,5 +1,5 @@
 section#hero-bg {
-    background-image: url('../../public/assets/home/hero-bg.jpg');
+    background-image: url('../../public/assets/home/followus-social-media-bg-2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,8 +25,14 @@ section#our-team {
         }
     }
 }
+/* Gallery Divider */
+#imageGallery {
+    .col-sm-4:first-child{ border-right: 4px solid #fff; }
+    .col-sm-4:nth-child(2){ border-left: 4px solid #fff; border-right: 4px solid #fff; img{ height: 100%; } }
+    .col-sm-4:last-child{ border-left: 4px solid #fff; }
+}
 
-
+/* Social Media Banner */
 section#social-media-banner {
     background-position: center;
     background-repeat: no-repeat;
