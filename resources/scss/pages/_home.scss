@@ -55,46 +55,6 @@ section#social-media-banner {
         padding: 200px 0px;
     }
 }
-
-
-/* Home Page Carousel Team */
-// .carousel-control-prev { margin-left: -140px; }
-// .carousel-control-next { margin-right: -140px; }
-// .carousel-control-prev-icon, .carousel-control-next-icon { 
-//     width: 4em;
-//     height: 4em;
-//  }
-
-// @media (max-width: 767px) {
-//     .carousel-inner .carousel-item>div {
-//         display: none;
-//     }
-
-//     .carousel-inner .carousel-item>div:first-child {
-//         display: block;
-//     }
-// }
-// .carousel-inner .carousel-item.active,
-// .carousel-inner .carousel-item-next,
-// .carousel-inner .carousel-item-prev {
-//     display: flex;
-// }
-
-// /* medium and up screens */
-// @media (min-width: 768px) {
-
-//     .carousel-inner .carousel-item-end.active,
-//     .carousel-inner .carousel-item-next {
-//         transform: translateX(25%);
-//     }
-
-//     .carousel-inner .carousel-item-start.active,
-//     .carousel-inner .carousel-item-prev {
-//         transform: translateX(-25%);
-//     }
-// }
-
-// .carousel-inner .carousel-item-end,
-// .carousel-inner .carousel-item-start {
-//     transform: translateX(0);
-// }
+@media (max-width: 575px){
+    #imageGallery .col-sm-4:nth-child(2) { border: none !important; padding-top: 10px; padding-bottom: 10px; }
+}
