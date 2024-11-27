@@ -15,7 +15,7 @@
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
         "spatie/fork": "^1.2",
-        "statamic/cms": "5.37.0",
+        "statamic/cms": "5.41.0",
         "statamic/ssg": "^3.0",
         "vlucas/phpdotenv": "^5.6"
     },
