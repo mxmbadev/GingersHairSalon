@@ -3,7 +3,10 @@ id: e8528c13-b3aa-4851-a8df-37cb2e3511a3
 blueprint: team_member
 title: 'Latricia Walton'
 team_member_picture: team_members/latricia-walton.jpg
-biography: 'My name is Latricia Walton. I’m a manicurist with Ginger’s'
+biography: |-
+  With twenty-five years in the nail industry, Tricia has the knowledge and expertise in making your nails beautiful. Specializing in both manicures and pedicures and natural-looking nail enhancements.
+
+  She provides a professional service while creating a comfortable and relaxing atmosphere. With a devotion to continuing education and product knowledge, Tricia has perfected the art of Shellac gel polish, the latest in natural nail enhancement systems, both nail-friendly and natural in appearance. Tricia will apply her extensive education and years of experience to render a polished look for you and your image.
 online_booking: true
 online_booking_url: 'tel:931-212-8166'
 bard_field:
@@ -82,7 +85,7 @@ bard_field:
         type: text
         text: 'Regular Polish - $20'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730951093
+updated_at: 1733362633
 services:
   -
     id: m35h0ugt

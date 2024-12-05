@@ -8,5 +8,6 @@ online_booking_url: 'tel:9316261049'
 tags:
   - nail-technician
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730959793
+updated_at: 1733362573
+biography: "Toni has over 10 years of experience as a nail tech. She has been employed at Ginger's since she graduated cosmetology school. Toni is passionate about doing nails. She treats the people in her chair not just as clients, but as friends as well. She wants her clients to leave the salon feeling pampered and rejuvenated."
 ---
