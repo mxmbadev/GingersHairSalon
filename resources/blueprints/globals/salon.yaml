@@ -9,90 +9,51 @@ tabs:
             handle: logo
             field:
               max_files: 1
-              mode: list
               container: assets
-              restrict: false
-              allow_uploads: true
-              show_filename: true
-              show_set_alt: true
               type: assets
               display: Logo
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
               width: 50
           -
             handle: address
             field:
-              input_type: text
               antlers: true
               type: text
               display: Address
               width: 50
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
           -
             handle: phone_number
             field:
-              input_type: text
               antlers: true
               type: text
               display: 'Phone Number'
               width: 50
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
           -
             handle: get_directions_url
             field:
-              input_type: text
               antlers: true
               type: text
               display: 'Get Directions URL'
               width: 50
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
           -
             handle: google_map_iframe_code
             field:
-              input_type: text
               antlers: true
               type: text
               display: 'Google Map iFrame Code'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
       -
         display: 'Social Media'
         fields:
           -
             handle: social_media
             field:
-              collapse: false
-              previews: true
-              fullscreen: true
+              type: replicator
+              display: 'Social Media'
               sets:
                 new_set_group:
                   display: 'New Set Group'
-                  instructions: null
-                  icon: null
                   sets:
                     new_social:
                       display: 'New Social'
-                      instructions: null
-                      icon: null
                       fields:
                         -
                           handle: social_media_logo
@@ -125,10 +86,20 @@ tabs:
                             visibility: visible
                             replicator_preview: true
                             hide_display: false
-              type: replicator
-              display: 'Social Media'
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
+      -
+        display: 'Product Line'
+        fields:
+          -
+            handle: product_line
+            field:
+              antlers: true
+              type: text
+              display: 'Product Line'
+          -
+            handle: product_line_logo
+            field:
+              max_files: 1
+              container: assets
+              folder: home
+              type: assets
+              display: 'Product Line Logo'

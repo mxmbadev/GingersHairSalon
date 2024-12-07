@@ -18,3 +18,5 @@ data:
       social_media_url: 'https://nextdoor.com/pages/gingers-hair-skin-care-columbia-tn/'
       type: new_social
       enabled: true
+  product_line: 'Kevin Murphy'
+  product_line_logo: home/product-line/kevin_murphy.png
