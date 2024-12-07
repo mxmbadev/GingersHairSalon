@@ -31,13 +31,6 @@ section#our-team {
     h2.h3 { line-height: 16px; }
 }
 
-/* Gallery Divider */
-#imageGallery {
-    .col-sm-4:first-child{ border-right: 4px solid #fff; }
-    .col-sm-4:nth-child(2){ border-left: 4px solid #fff; border-right: 4px solid #fff; img{ height: 100%; } }
-    .col-sm-4:last-child{ border-left: 4px solid #fff; }
-}
-
 /* Social Media Banner */
 section#social-media-banner {
     background-position: center;
