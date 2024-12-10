@@ -2,3 +2,9 @@
   for = "/*"
   [headers.values]
     access-control-allow-origin = "*"
+
+[[redirects]]
+  from = "/gingers-team.php"
+  to = "/team"
+  status = 301
+  force = true
