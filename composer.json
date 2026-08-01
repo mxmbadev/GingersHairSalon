@@ -9,14 +9,14 @@
     ],
     "type": "project",
     "require": {
-        "php": "^8.1",
+        "php": "^8.3",
         "guzzlehttp/guzzle": "^7.2",
-        "laravel/framework": "^10.8",
-        "laravel/sanctum": "^3.2",
+        "laravel/framework": "^12.40",
+        "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.8",
         "spatie/fork": "^1.2",
-        "statamic/cms": "5.41.0",
-        "statamic/ssg": "^3.0",
+        "statamic/cms": "^6.0",
+        "statamic/ssg": "^4.0",
         "vlucas/phpdotenv": "^5.6"
     },
     "require-dev": {
@@ -25,8 +25,8 @@
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
-        "nunomaduro/collision": "^7.0",
-        "phpunit/phpunit": "^10.1",
+        "nunomaduro/collision": "^8.0",
+        "phpunit/phpunit": "^11.0",
         "spatie/laravel-ignition": "^2.0"
     },
     "config": {
@@ -40,7 +40,7 @@
             "pixelfear/composer-dist-plugin": true
         },
         "platform": {
-            "php": "8.2.0"
+            "php": "8.4.0"
         }
     },
     "extra": {
