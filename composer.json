@@ -40,7 +40,7 @@
             "pixelfear/composer-dist-plugin": true
         },
         "platform": {
-            "php": "8.4.0"
+            "php": "8.3.0"
         }
     },
     "extra": {
