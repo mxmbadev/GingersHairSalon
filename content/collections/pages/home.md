@@ -17,7 +17,7 @@ hero_ctas:
     type: call_to_actions
     enabled: true
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1785741389
+updated_at: 1785785135
 hero_text:
   -
     type: paragraph
@@ -234,7 +234,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$50 - $65'
+                    text: $50+
           -
             type: listItem
             content:
@@ -249,7 +249,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$35 - $55'
+                    text: $35+
           -
             type: listItem
             content:
@@ -264,7 +264,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$40 - $55'
+                    text: $40+
           -
             type: listItem
             content:
@@ -279,7 +279,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$115 - $135'
+                    text: $115+
           -
             type: listItem
             content:
@@ -294,7 +294,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$110 - $130 '
+                    text: $110+
   -
     id: m35gju2u
     pricing_information:
@@ -315,7 +315,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$130 - $160'
+                    text: $130+
           -
             type: listItem
             content:
@@ -330,7 +330,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$155 - $185'
+                    text: $155+
           -
             type: listItem
             content:
@@ -345,7 +345,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$155 - $185'
+                    text: $155+
               -
                 type: bulletList
                 content:
@@ -363,7 +363,7 @@ pricing_elements:
                             marks:
                               -
                                 type: bold
-                            text: '$40 - $55'
+                            text: $40+
     type: new_set
     enabled: true
   -
