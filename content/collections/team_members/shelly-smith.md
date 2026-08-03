@@ -9,162 +9,13 @@ biography: |-
 online_booking: true
 bard_field:
   -
-    type: heading
-    attrs:
-      level: 2
+    type: paragraph
     content:
       -
         type: text
-        text: Services
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: "Men's Cut - $30"
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Blow Dry No Cut - $30'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Perm - $105 (Extra for long hair)'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Single Process Color - $100'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Partial Foils - $120'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Full Foil - $150'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Partial Foil Over Color - $145'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Full Foil Over Color - $175'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Lip or Brow Wax - $20 each'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Beard Trim - $15'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Bang Trim - $15'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Add Cut to any Chemical Service - $30'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Hot Tool Add On - $10'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Child Cut - $30'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'Add Toner - $20'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: "Women's Cut and Dry - $45"
+        text: 'Prices are based on consultation. Contact me to get information. '
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730953495
+updated_at: 1785741846
 services:
   -
     id: lx8gu4e9
@@ -263,7 +114,7 @@ services:
                         type: bold
                     text: $30
     type: service_category
-    enabled: true
+    enabled: false
   -
     id: lx8gvqik
     bard_field:
@@ -370,7 +221,7 @@ services:
                         type: bold
                     text: $175
     type: service_category
-    enabled: true
+    enabled: false
   -
     id: lx8gwpjm
     bard_field:
@@ -438,7 +289,7 @@ services:
                         type: bold
                     text: $20
     type: service_category
-    enabled: true
+    enabled: false
 online_booking_url: 'tel:9313881114'
 tags:
   - hair-stylist

@@ -9,61 +9,8 @@ biographhy: |-
 
   She prefers to create a custom massage for each and every client. She invites clients to actively participate in their own healing. Her overall goal is to provide a relaxing and therapeutic massage to all she touches.
 online_booking: true
-bard_field:
-  -
-    type: heading
-    attrs:
-      level: 2
-    content:
-      -
-        type: text
-        text: Services
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: '30 min - $40'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: '60 min - $70'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: '90 min - $110'
-  -
-    type: heading
-    attrs:
-      level: 3
-    content:
-      -
-        type: text
-        text: Packages
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: '3 massages - $180'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: '5 massages - $300'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: '10 massages - $600'
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1730951023
+updated_at: 1785742004
 biography: |-
   Beverly is a graduate from the Institute of Therapeutic Massage and Movement with over 500 hours of training. She has been practicing massage for over 20 years. 
 
@@ -87,7 +34,7 @@ services:
                 content:
                   -
                     type: text
-                    text: '30 min - $40'
+                    text: '30 min - $45'
           -
             type: listItem
             content:
@@ -96,7 +43,7 @@ services:
                 content:
                   -
                     type: text
-                    text: '60 min - $70'
+                    text: '60 min - $75'
           -
             type: listItem
             content:
@@ -105,9 +52,9 @@ services:
                 content:
                   -
                     type: text
-                    text: '90 min - $110'
+                    text: '90 min - $115'
     type: service_category
-    enabled: false
+    enabled: true
   -
     id: lx44pfnf
     service_name: 'Massage Packages'
@@ -154,7 +101,7 @@ services:
             type: text
             text: 'Prices are based on consultation.'
     type: service_category
-    enabled: true
+    enabled: false
 online_booking_url: 'tel:9316981447'
 tags:
   - massage-therapist

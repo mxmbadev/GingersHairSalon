@@ -17,7 +17,7 @@ hero_ctas:
     type: call_to_actions
     enabled: true
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1785730271
+updated_at: 1785741389
 hero_text:
   -
     type: paragraph
