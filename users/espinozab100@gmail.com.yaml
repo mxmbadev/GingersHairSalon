@@ -2,3 +2,7 @@ name: 'Brandon Espinoza'
 super: true
 id: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
 password_hash: $2y$10$fZkLD/eQI.6SJH9IFFs4/.QQH1vMFcNMNgqwdQuw32gtJs1EbyGMO
+preferences:
+  collections:
+    pages:
+      view: tree

@@ -17,7 +17,7 @@ hero_ctas:
     type: call_to_actions
     enabled: true
 updated_by: 588bd5c0-377a-4950-b9a9-1edfb8277fc5
-updated_at: 1731030368
+updated_at: 1785730271
 hero_text:
   -
     type: paragraph
@@ -234,7 +234,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$40 - $55'
+                    text: '$50 - $65'
           -
             type: listItem
             content:
@@ -249,7 +249,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$25 - $45'
+                    text: '$35 - $55'
           -
             type: listItem
             content:
@@ -264,7 +264,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$30 - $45'
+                    text: '$40 - $55'
           -
             type: listItem
             content:
@@ -279,7 +279,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$105 - $125'
+                    text: '$115 - $135'
           -
             type: listItem
             content:
@@ -294,7 +294,7 @@ pricing_elements:
                     marks:
                       -
                         type: bold
-                    text: '$100 - $120'
+                    text: '$110 - $130 '
   -
     id: m35gju2u
     pricing_information:
@@ -309,13 +309,13 @@ pricing_elements:
                 content:
                   -
                     type: text
-                    text: 'Partial Highlite '
+                    text: 'Partial Highlight '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: '$120 - $150'
+                    text: '$130 - $160'
           -
             type: listItem
             content:
@@ -324,13 +324,13 @@ pricing_elements:
                 content:
                   -
                     type: text
-                    text: 'Full Highlite '
+                    text: 'Full Highlight '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: '$145 - $175'
+                    text: '$155 - $185'
           -
             type: listItem
             content:
@@ -339,13 +339,13 @@ pricing_elements:
                 content:
                   -
                     type: text
-                    text: 'Two Color foil '
+                    text: 'Two-color foil '
                   -
                     type: text
                     marks:
                       -
                         type: bold
-                    text: '$145 - $175'
+                    text: '$155 - $185'
               -
                 type: bulletList
                 content:
@@ -363,7 +363,7 @@ pricing_elements:
                             marks:
                               -
                                 type: bold
-                            text: '$30 - $45'
+                            text: '$40 - $55'
     type: new_set
     enabled: true
   -
